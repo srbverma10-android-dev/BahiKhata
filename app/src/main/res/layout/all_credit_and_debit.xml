@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_all_credit_and_debit2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="@dimen/fifty_dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="@dimen/ten_dp"
+        >
+
+        <ImageView
+            android:id="@+id/profileImage_PISI"
+
+            android:contentDescription="@string/content_dis"
+
+            android:layout_width="@dimen/forty_dp"
+            android:layout_height="@dimen/forty_dp"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerVertical="true"
+
+        android:padding="@dimen/two_dp"
+
+        android:layout_toEndOf="@+id/card_view_all_credit_and_debit2"
+        >
+
+        <TextView
+            android:id="@+id/name_all_credit_and_Debit"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/sourabh"
+            android:textSize="14sp"
+
+            android:fontFamily="serif-monospace"
+
+            android:textStyle="bold"
+
+            android:layout_marginBottom="@dimen/two_dp"
+            />
+
+        <TextView
+            android:id="@+id/phone_number_all_credit_And_Debit"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/date"
+            android:textSize="14sp"
+
+
+            android:fontFamily="serif-monospace"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_centerVertical="true"
+
+        >
+
+        <TextView
+            android:id="@+id/amount_records"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="1920580 RS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/five_dp"
+            android:paddingEnd="@dimen/five_dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/credit_or_debit_records"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/c"
+
+            android:layout_marginTop="@dimen/two_dp"
+            android:layout_marginEnd="@dimen/ten_dp"
+
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

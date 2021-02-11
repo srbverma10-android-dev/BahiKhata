@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bahi Khata</string>
+    <string name="sourabh">Sourabh Kumar Verma</string>
+    <string name="date">Oct, 12</string>
+    <string name="content_dis">content dis</string>
+    <string name="search_customer_in_your_shop">Search Customer in Your Shop</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <string name="credit">Credit</string>
+    <string name="thousand">1000RS</string>
+    <string name="debit">Debit</string>
+    <string name="hundred">100Rs</string>
+    <string name="net">NET BALANCE:-</string>
+    <string name="nine_hundred">900RS</string>
+    <string name="peoples_in_your_shop">PEOPLES IN YOUR SHOP…</string>
+    <string name="DEVICE_DETAILS">DEVICE DETAILS…</string>
+    <string name="device_name">Device Name:-</string>
+    <string name="device_address">Device Address:-</string>
+    <string name="add_person_details">ADD PERSON DETAILS…</string>
+    <string name="add_person_name">Add Person Name…</string>
+    <string name="add_person_phone_num">Add Person Phone Number…</string>
+    <string name="add">ADD</string>
+    <string name="add_amount">ADD AMOUNT…</string>
+    <string name="all_records">RECORDS</string>
+    <string name="search_customer">SEARCH CUSTOMERS…</string>
+
+</resources>

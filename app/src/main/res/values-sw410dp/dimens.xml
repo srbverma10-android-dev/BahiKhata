@@ -1,0 +1,14 @@
+<resources>
+	<dimen name="two_hundred_dp">256.8dp</dimen>
+	<dimen name="forty_dp">51.4dp</dimen>
+	<dimen name="neg_two_hundred_twenty_dp">-282.5dp</dimen>
+	<dimen name="thirty_dp">38.5dp</dimen>
+	<dimen name="three_hundred_dp">385.2dp</dimen>
+	<dimen name="twenty_dp">25.7dp</dimen>
+	<dimen name="ten_dp">12.8dp</dimen>
+	<dimen name="three_dp">3.9dp</dimen>
+	<dimen name="fifty_dp">64.2dp</dimen>
+	<dimen name="hundred_dp">128.4dp</dimen>
+	<dimen name="five_dp">6.4dp</dimen>
+	<dimen name="two_dp">2.6dp</dimen>
+</resources>

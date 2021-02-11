@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="@dimen/five_dp"
+        app:cardElevation="@dimen/five_dp"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="@dimen/five_dp"
+        android:layout_marginStart="@dimen/five_dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="@dimen/twenty_dp"
+                android:layout_marginStart="@dimen/ten_dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/rupee_sign1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/rupeeign"
+
+                    android:layout_gravity="bottom"
+                    />
+
+                <TextView
+                    android:id="@+id/amount_1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="2RS"
+
+                    android:layout_gravity="center"
+
+                    android:padding="@dimen/five_dp"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="@dimen/ten_dp"
+
+                android:layout_marginTop="@dimen/two_dp"
+                >
+
+                <TextView
+                    android:id="@+id/date_1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="24/12/2020  16:45:24"
+                    android:textSize="8sp"
+
+                    android:layout_marginTop="@dimen/two_dp"
+
+                    android:paddingStart="@dimen/five_dp"
+                    android:paddingEnd="@dimen/five_dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/c"
+
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="@dimen/five_dp"
+        android:elevation="@dimen/five_dp"
+        app:cardElevation="@dimen/five_dp"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="@dimen/five_dp"
+        android:layout_marginEnd="@dimen/five_dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="@dimen/twenty_dp"
+                android:layout_marginStart="@dimen/ten_dp"
+                >
+
+                <ImageView
+                    android:id="@+id/rupee_sign"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/rupeeign"
+
+                    android:layout_gravity="bottom"
+                    />
+
+                <TextView
+                    android:id="@+id/amount_2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="2RS"
+
+                    android:layout_gravity="center"
+
+                    android:padding="@dimen/five_dp"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="@dimen/ten_dp"
+
+                android:layout_marginTop="@dimen/two_dp"
+                >
+
+                <TextView
+                    android:id="@+id/date_2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="24/12/2020  16:45:24"
+                    android:textSize="8sp"
+
+                    android:layout_marginTop="@dimen/two_dp"
+
+                    android:paddingStart="@dimen/five_dp"
+                    android:paddingEnd="@dimen/five_dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/d"
+
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

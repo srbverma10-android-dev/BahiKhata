@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "55352727206",
+    "project_id": "bahi-khata-ca7a2",
+    "storage_bucket": "bahi-khata-ca7a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55352727206:android:2b2324f798e7ebc71e8667",
+        "android_client_info": {
+          "package_name": "com.sourabhverma.bahikhata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55352727206-09f6qi5gn86p3p0nutg0vc6684apr3g0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sourabhverma.bahikhata",
+            "certificate_hash": "39233d0b2efe506aa37a5361e5cb5c6a3bafc802"
+          }
+        },
+        {
+          "client_id": "55352727206-v6t7unsoc7lodrch1pbf4k5jkgdi05nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx6YujLM3xw7uuOzoq5JE2mTAwvvPvBsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55352727206-v6t7unsoc7lodrch1pbf4k5jkgdi05nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

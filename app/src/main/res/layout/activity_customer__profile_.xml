@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer_Profile_Activity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/profile_image_card_View"
+
+        android:layout_width="@dimen/hundred_dp"
+        android:layout_height="@dimen/hundred_dp"
+
+        app:cardElevation="@dimen/two_dp"
+
+        app:cardCornerRadius="@dimen/two_hundred_dp"
+
+        android:layout_marginTop="@dimen/fifty_dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/profile_image"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/name"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="SOURABH KUMAR VERMA"
+
+        android:gravity="center"
+
+        android:layout_marginTop="@dimen/ten_dp"
+
+        android:layout_below="@+id/profile_image_card_View"
+        />
+
+    <TextView
+        android:id="@+id/phone_number"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="9131377908"
+
+        android:gravity="center"
+
+        android:layout_marginTop="@dimen/ten_dp"
+
+        android:layout_below="@+id/name"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_customer"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/twenty_dp"
+        android:layout_marginEnd="@dimen/twenty_dp"
+        android:layout_marginTop="@dimen/thirty_dp"
+
+        android:layout_below="@+id/phone_number"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            android:paddingTop="@dimen/ten_dp"
+            android:paddingBottom="@dimen/ten_dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingStart="@dimen/twenty_dp"
+                android:paddingEnd="@dimen/twenty_dp"
+
+                android:paddingTop="@dimen/five_dp"
+                android:paddingBottom="@dimen/five_dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="NET BALANCE :-"
+
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/Net_balance"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="100 RS"
+
+                    android:gravity="end"
+
+                    android:layout_weight="1"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingStart="@dimen/twenty_dp"
+                android:paddingEnd="@dimen/twenty_dp"
+
+                android:paddingTop="@dimen/five_dp"
+                android:paddingBottom="@dimen/five_dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="CREDIT :-"
+
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/Credit"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="900 RS"
+
+                    android:gravity="end"
+
+                    android:layout_weight="1"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingStart="@dimen/twenty_dp"
+                android:paddingEnd="@dimen/twenty_dp"
+
+                android:paddingTop="@dimen/five_dp"
+                android:paddingBottom="@dimen/five_dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="DEBIT :-"
+
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/Debit"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="1000 RS"
+
+                    android:gravity="end"
+
+                    android:layout_weight="1"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/request_money"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Request Money"
+
+        android:layout_marginStart="@dimen/twenty_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+
+        android:layout_below="@+id/card_view_customer"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/request_money"
+
+        android:layout_marginStart="@dimen/twenty_dp"
+        >
+
+        <ImageView
+            android:id="@+id/whats_app"
+
+            android:layout_width="@dimen/thirty_dp"
+            android:layout_height="@dimen/thirty_dp"
+            android:background="@drawable/whatsapplogo"
+
+            android:onClick="Open_Whats_App"
+
+            android:layout_marginEnd="@dimen/five_dp"
+            android:layout_marginTop="@dimen/five_dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_textsms_24"
+
+            android:layout_marginEnd="@dimen/five_dp"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginTop="@dimen/ten_dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_email_24"
+
+            android:layout_marginEnd="@dimen/five_dp"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginTop="@dimen/ten_dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

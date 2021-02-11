@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".All_Credit_And_Debit_Activity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_all_credit_and_debit"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/layout1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="false"
+
+            android:gravity="center"
+
+            android:padding="@dimen/five_dp"
+
+            >
+
+            <EditText
+                android:id="@+id/search_edit_text_all"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@android:color/darker_gray"
+
+                android:hint="@string/search_customer"
+
+                android:textColor="@android:color/black"
+
+                android:background="@drawable/edit_text"
+
+                android:autofillHints="name"
+
+                android:inputType="textPersonName"
+
+                android:layout_weight="1"
+
+                android:layout_marginEnd="@dimen/two_dp"
+
+                android:padding="@dimen/five_dp"
+
+                />
+
+
+            <ImageButton
+                android:id="@+id/search_button_all"
+
+                android:contentDescription="@string/content_dis"
+
+                android:onClick="serach_button_all_credit_and_debit_activity"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/search_button"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_all_credit_and_Debit"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+
+        android:layout_below="@+id/card_view_all_credit_and_debit"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
